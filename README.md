@@ -52,6 +52,6 @@ source scripts/load_introot.sh INTROOT_PATH INTROOT_NAME
 ```bash
 source scripts/load_cdb.sh CDB_PATH
 ```
-You also write your own script such as scripts/sag_env.sh
+It is useful to write a custom script, such as scripts/sag_env.sh
 * Enable ssh authentication if you want to use git
 
