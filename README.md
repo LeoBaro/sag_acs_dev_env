@@ -37,8 +37,7 @@ You will need a private key file called "foo" inside the ".ssh" folder.
 Let's clone the repositories inside the "Repos" folder:
 ```bash
 4cb59c3449f8 almamgr:/shared_dir > cd Repos
-4cb59c3449f8 almamgr:/shared_dir > git clone git@gitlab.cta-observatory.org:cta-computing/acada/science-alert-generation.git
-4cb59c3449f8 almamgr:/shared_dir > git submodule update --init
+4cb59c3449f8 almamgr:/shared_dir > git clone --recurse-submodules git@gitlab.cta-observatory.org:cta-computing/acada/science-alert-generation.git
 ```
 
 
